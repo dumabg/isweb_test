@@ -1,12 +1,11 @@
 name: isweb_test
 description: Defines a function for allowing to do tests on web. The package test_screen uses it to emulate a web environment for testing and allow run tests on Windows, Linux or Mac.
-version: 1.0.0
+version: 1.1.0
 repository: https://github.com/dumabg/isweb_test
 homepage: https://github.com/dumabg/isweb_test
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -15,7 +14,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
